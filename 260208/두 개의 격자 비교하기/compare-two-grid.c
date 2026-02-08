@@ -3,8 +3,8 @@
 int main() {
     int a,b;
     scanf("%d %d", &a, &b);
-    int matrix1[a][a];
-    int matrix2[b][b];
+    int matrix1[a][b];
+    int matrix2[a][b];
 
 
     for (int i=0; i<a; i++){
