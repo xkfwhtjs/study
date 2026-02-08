@@ -14,13 +14,13 @@ int main() {
     }
 
      for (int i=0; i<a; i++){
-        for(int j=0; j<a; j++){
+        for(int j=0; j<b; j++){
             scanf("%d", &matrix2[i][j]);
         }
     }
 
      for (int i=0; i<a; i++){
-        for(int j=0; j<a; j++){
+        for(int j=0; j<b; j++){
             if(matrix1[i][j] == matrix2[i][j]){
                 printf("0 ");
             } else{
