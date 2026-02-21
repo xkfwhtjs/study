@@ -3,6 +3,7 @@
 int main() {
     int n;
     scanf("%d", &n);
+
     for (int i = 0; i < n; i++) {
         
         if (i % 2 == 0) {
@@ -10,7 +11,7 @@ int main() {
                 printf("%d", j);
             }
         } 
-        else {}
+        else {
             for (int j = n; j >= 1; j--) {
                 printf("%d", j);
             }
