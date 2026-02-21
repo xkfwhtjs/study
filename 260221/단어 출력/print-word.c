@@ -2,6 +2,6 @@
 
 int main() {
     // Please write your code here.
-    pritf("Hello");
+    printf("Hello");
     return 0;
 }
