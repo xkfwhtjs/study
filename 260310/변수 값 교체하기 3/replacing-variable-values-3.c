@@ -8,7 +8,7 @@ int main() {
     temp = a;
     a=b;
     b=temp;
-    printf("%d\%d", a,b);
+    printf("%d\n%d", a,b);
     // Please write your code here.
     return 0;
 }
